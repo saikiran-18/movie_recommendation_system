@@ -22,7 +22,7 @@ def get_movies(name, cosine=cosine):
 import requests
 
 def fetch_poster(movie_id):
-    api_key="25dafa03b7851832aa2d786f183c67a6"
+    api_key={api_key0}
     url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}'
     response = requests.get(url)
     data = response.json()
